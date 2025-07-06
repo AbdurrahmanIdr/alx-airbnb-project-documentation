@@ -1,84 +1,84 @@
-# Airbnb Clone – Backend Features and Functionalities
+# Airbnb Clone – Features and Functionalities
 
-## Overview
+![Features and Functionalities Diagram](features-and-functionalities.png)
 
-This document outlines the key features and functionalities required for the backend of the Airbnb Clone project. It reflects the technical and functional expectations of a scalable, secure, and efficient rental marketplace platform.
-
-The features are categorized into **Core Functionalities**, **Technical Requirements**, and **Non-Functional Requirements**.
+This document outlines the key backend features and functionalities required for the Airbnb Clone project. The backend is responsible for handling user data, property listings, bookings, reviews, messaging, and administrative tasks.
 
 ---
 
-## Core Functionalities
+## 1. User Authentication and Management
 
-### 1. User Management
+- **Register as Guest or Host**
+- **Login and Secure Authentication** using JWT
+- **OAuth Login Options** (Google, Facebook)
+- **User Profile Management** (profile photo, contact info, etc.)
+- **Role Management:** Guest, Host, Admin
 
-- **Registration**: Sign up as guest or host with secure authentication (JWT).
-- **Login & Authentication**: Email/password login and optional OAuth (Google, Facebook).
-- **Profile Management**: Update user details, preferences, and profile photos.
+---
 
-### 2. Property Listings Management
+## 2. Property Listings Management
 
-- **Add Listings**: Hosts can create listings with location, price, description, amenities, etc.
-- **Edit/Delete Listings**: Hosts can update or remove listings.
+- **Create New Listings** with title, description, images, price, and amenities
+- **Edit or Delete Listings**
+- **Manage Availability** (calendar integration)
 
-### 3. Search and Filtering
+---
 
-- **Search by**:
+## 3. Search and Filtering
+
+- **Search Listings by:**
   - Location
-  - Price range
-  - Number of guests
-  - Amenities (Wi-Fi, pool, pet-friendly, etc.)
-- **Pagination**: For large search result sets.
+  - Price Range
+  - Number of Guests
+  - Amenities (Wi-Fi, Pool, Pet-Friendly)
+- **Pagination Support** for performance
 
-### 4. Booking Management
+---
 
-- **Create Bookings**: Guests can book properties for specific dates.
-- **Prevent Double Booking**: Date validation to avoid overlaps.
-- **Cancel Bookings**: Based on cancellation policies.
-- **Track Status**: Statuses include pending, confirmed, canceled, completed.
+## 4. Booking System
 
-### 5. Payment Integration
+- **Book a Property** for a selected date range
+- **Validate Availability** to prevent double bookings
+- **Cancel Bookings**
+- **Track Booking Statuses**: pending, confirmed, canceled, completed
 
-- **Gateways**: Integrate Stripe, PayPal for secure transactions.
-- **Guest Payments & Host Payouts**
+---
+
+## 5. Payments
+
+- **Secure Payments** via Stripe, PayPal, or Credit Card
 - **Multi-Currency Support**
-
-### 6. Reviews and Ratings
-
-- **Guest Reviews**: Ratings and comments linked to bookings.
-- **Host Responses**: Hosts can respond to guest reviews.
-
-### 7. Notification System
-
-- **Channels**: Email and in-app notifications.
-- **Triggers**: Bookings, cancellations, payments, etc.
-
-### 8. Admin Dashboard
-
-- **Management Tools**: View and manage users, listings, bookings, and payments.
+- **Automatic Host Payouts**
 
 ---
 
-## Technical Requirements
+## 6. Reviews and Ratings
 
-- **Database**: Relational (PostgreSQL/MySQL)
-- **API**: RESTful APIs with proper HTTP methods and status codes
-- **Authentication**: JWT-based, with Role-Based Access Control (RBAC)
-- **File Storage**: Store images using a file system (or optionally, cloud like AWS S3)
-- **Third-Party Services**: Email notifications using SendGrid or Mailgun
-- **Error Handling**: Centralized error reporting and logging
+- **Guests Can Rate and Review** Properties
+- **One Review Per Booking**
+- **Host Can Respond** to Reviews
 
 ---
 
-## Non-Functional Requirements
+## 7. Notifications System
 
-- **Scalability**: Modular architecture with support for horizontal scaling
-- **Security**: Encrypted data handling, rate limiting, and firewall setup
-- **Performance**: Use of caching (e.g., Redis), optimized database queries
-- **Testing**: Unit and integration testing with automated API test coverage
+- **Send Emails and In-App Notifications** for:
+  - Booking Confirmation
+  - Cancellation
+  - Payment Receipt
 
 ---
 
-## Summary
+## 8. Messaging
 
-These features form the foundation of the backend system for the Airbnb Clone project. They ensure that the system provides robust functionality for users and hosts while maintaining high standards of performance, security, and maintainability.
+- **Direct Messaging Between Guests and Hosts**
+- **Inbox Interface for Users**
+
+---
+
+## 9. Admin Dashboard
+
+- **User Monitoring and Management**
+- **Property Moderation**
+- **Payment Oversight**
+- **Report Management**

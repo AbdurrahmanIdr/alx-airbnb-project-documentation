@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="j7REYBeZHctP9YtPF3Xa" name="Page-1">
+    <mxGraphModel dx="1744" dy="1058" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;h1&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); font-size: 29px;&quot;&gt;Airbnb Clone Backend&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#F8CECC);fontColor=#333333;strokeColor=light-dark(#666666,#7EA6E0);glass=1;gradientColor=#7EA6E0;strokeWidth=5;fontFamily=Garamond;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="451.5" y="66" width="211" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;User Authentication and Management&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Register as Guest or Host&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Login and Secure Authentication using JWT&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;OAuth Login Options (Google, Facebook)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;User Profile Management (profile photo, contact info, etc.)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Role Management: Guest, Host, Admin&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="62" y="259" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;Search and Filtering&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Search Listings by:**&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Location&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Price Range&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Number of Guests&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Amenities (Wi-Fi, Pool, Pet-Friendly)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Pagination Support** for performance&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4E1F5;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="804" y="259" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;&amp;nbsp;Property Listings Management&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Create New Listings with title, description, images, price, and amenities&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Edit or Delete Listings&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Manage Availability (calendar integration)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFB3;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="427" y="331" width="260" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;Booking System&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Book a Property for a selected date range&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Validate Availability to prevent double bookings&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Cancel Bookings&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Track Booking Statuses: pending, confirmed, canceled, completed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="58" y="414" width="264" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="&lt;h2&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#121212&quot;&gt;Reviews and Ratings&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Guests Can Rate and Review Properties&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;One Review Per Booking&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Host Can Respond to Reviews&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;shadow=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="804" y="432.5" width="266" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;Payments&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Secure Payments via Stripe, PayPal, or Credit Card&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Multi-Currency Support&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Automatic Host Payouts&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="427" y="507" width="260" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;Notifications System&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Send Emails and In-App Notifications** for:&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Booking Confirmation&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Cancellation&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&amp;nbsp;Payment Receipt&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFF99;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="62" y="574" width="260" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="&lt;h2&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(18, 18, 18));&quot;&gt;Admin Dashboard&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;User Monitoring and Management&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Property Moderation&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Payment Oversight&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Report Management&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="801" y="574" width="266" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="&lt;h2&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;span&gt;Messaging&lt;/span&gt;&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#121212&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Direct Messaging Between Guests and Hosts&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Inbox Interface for Users&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;align=center;fontFamily=Garamond;fontColor=light-dark(#000000,#000000);glass=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="427" y="674" width="260" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="12" target="11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="711" y="408" as="sourcePoint" />
+            <mxPoint x="761" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="34" target="33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="687" y="689" as="sourcePoint" />
+            <mxPoint x="804" y="623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="28" target="27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="692" y="547" as="sourcePoint" />
+            <mxPoint x="809" y="481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="10" target="12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="334" y="349" as="sourcePoint" />
+            <mxPoint x="451" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-40" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="32" target="34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324" y="629" as="sourcePoint" />
+            <mxPoint x="429" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="26" target="28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="476" as="sourcePoint" />
+            <mxPoint x="427" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="12" target="2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="276" as="sourcePoint" />
+            <mxPoint x="585" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-45" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="10" target="2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="220" as="sourcePoint" />
+            <mxPoint x="340" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-46" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#666666,#7EA6E0);strokeWidth=5;fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="2" target="11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="801" y="172" as="sourcePoint" />
+            <mxPoint x="851" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-49" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;" edge="1" parent="1" source="34" target="28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="567" y="629" as="sourcePoint" />
+            <mxPoint x="567" y="591" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6plXj7H7f3FrBvuSdLP-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=light-dark(#666666,#7EA6E0);fontFamily=Garamond;fontSize=10;flowAnimation=0;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="28" target="12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="562" y="514" as="sourcePoint" />
+            <mxPoint x="554" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
