@@ -9,8 +9,6 @@ This document provides the use case diagram for the backend system of the Airbnb
 - **Guest**: A user searching for and booking properties.
 - **Host**: A user listing and managing properties.
 - **Admin**: A system administrator responsible for monitoring and managing backend operations.
-- **Payment System**: External service handling payments and transactions.
-- **Notification System**: Handles emails and in-app alerts.
 
 ## Key Use Cases
 
@@ -47,4 +45,4 @@ This document provides the use case diagram for the backend system of the Airbnb
 
 ## Diagram File
 
-[use-case-diagram](./use-case-diagram.png)
+[use-case-diagram](use-case-diagram.png)
