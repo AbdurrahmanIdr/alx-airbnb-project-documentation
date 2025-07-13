@@ -1,46 +1,32 @@
-# Airbnb Clone – Backend Flowchart
+# User Registration Flowchart
 
-## Overview
+This diagram visualizes the **User Registration** process for the Airbnb Clone backend. It is part of the system design documentation for the `alx-airbnb-project-documentation` project.
 
-This document includes a flowchart illustrating the step-by-step process of one of the core backend functionalities of the Airbnb Clone project. The selected process is **Property Booking**, which involves guest interaction, system validations, database updates, and payment handling.
+## 📌 Objective
 
-The flowchart helps visualize the logic, decision points, and data flow involved in booking a property.
+To map the workflow and decision logic for registering a new user (guest or host) on the platform.
 
-## Selected Process: Property Booking
+## 🧩 Key Components
 
-This flowchart represents the backend steps when a guest books a property through the platform. It includes:
+- **Start**: User initiates registration by accessing the registration form.
+- **Input Validation**: System checks that all required fields (e.g., email, password, role) are provided.
+- **Email Uniqueness Check**: Verifies if the provided email is not already associated with another user.
+- **Password Hashing**: Securely hashes the user’s password before storing it.
+- **Store in Database**: Saves user data in the `users` table.
+- **Send Confirmation Email** (optional): Sends a welcome or verification email.
+- **End**: User registration is successful.
 
-- User input validation
-- Property availability check
-- Booking record creation
-- Payment initiation
-- Booking status update
-- Notification dispatch
+## 📂 File
 
-## Flowchart Components
+- **Diagram**: `flowcharts/user-registration.png`
+- **Directory**: `flowcharts/`
 
-### Inputs
+## 🛠️ Tools Used
 
-- Booking request (property ID, user ID, start date, end date)
-- Payment details
+- Draw.io (<https://draw.io>)
 
-### Processing Steps
+## 🔖 Related Features
 
-1. Receive booking request
-2. Validate user session and input data
-3. Check property availability (date conflict check)
-4. Calculate total price
-5. Save booking record with status `pending`
-6. Initiate payment process
-7. On success: mark booking `confirmed`
-8. On failure: mark booking `canceled`
-9. Send booking confirmation or failure notification
-
-### Output
-
-- Booking confirmation
-- Payment receipt or error
-- Booking status update in DB
-
-## File
-[data-flow-diagram](data-flow-diagram.png)
+- User Management
+- Authentication System
+- Database Design (User Table)
